@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html{
+    width: 100%;
+    background-color: black;
+}
+
+body::-webkit-scrollbar{
+    background-color: grey;
+    width: 6px;
+    height: 6px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #111111;
+}
+
+
+.navbar-brand img{
+    width: 250px;
+    height: 80px;
+}
+
+.form-control{
+    border: 2px solid grey;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.form-control::placeholder{
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.input{
+    background-color: #111111;
+}
+
+.sabit{
+    position: sticky;
+    top:0px;
+    z-index: 1000;
+}
+
+.hero-image{
+    display: block;
+    width: 80%;
+    margin-top: 50px;
+    margin-inline: auto;
+}
+
+.cards{
+    padding-inline: 10%;
+}
+
+.fa-play{
+    position: absolute;
+    top: 270px;
+    right: 7px;
+    padding: 5px;
+    border: 1px solid white;
+    color: yellow;
+    background-color: black;
+    font-size: 12px;
+}
+
+.ekranlar{
+    width: 40%;
+}
+
+.img-1{
+    width: 170px !important;
+}
+
+.indirme{
+    width: 150px;
+}
+
+.yardim-merkezi{
+    background-color: #111111;
+}
